@@ -1,3 +1,5 @@
+# Pull Request Template
+
 ## Description
 
 [Description of the pull request]
@@ -14,6 +16,6 @@ None.
 
 None.
 
-## Screnshots (Optional)
+## Screenshots (Optional)
 
 _Optional: add some images of the views so the changes are understood_

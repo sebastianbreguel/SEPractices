@@ -1,14 +1,16 @@
+# Manual de Uso BackEnd
+
 **Table of Contents**
 
-- [About this Project](#about-this-project)
+- [Manual de Uso BackEnd](#manual-de-uso-backend)
+  - [About this Project](#about-this-project)
   - [Pre-requisitos:](#pre-requisitos)
   - [Project Setup](#project-setup)
-    - [Running the project](#running-the-project)
     - [Env Variables](#env-variables)
-  - [Correr la app!](#correr-la-app)
+  - [Run the server](#run-the-server)
   - [Structure Folder](#structure-folder)
 
-# About this Project
+## About this Project
 
 An Express template that uses:
 
@@ -30,15 +32,13 @@ An Express template that uses:
 **_Todos los comando mostrados a continuacion deben ser corridos en la consola_**
 
 - [Node.js](https://nodejs.org/es/) LTS ([10.x](https://nodejs.org/en/blog/release/v10.18.0/) or [12.x](https://nodejs.org/es/blog/release/v12.13.0/))
-  - ` nvm install 12`
+  - `nvm install 12`
 - [Yarn](https://yarnpkg.com)
-  - ` npm install -g yarn`
+  - `npm install -g yarn`
 - [Yeoman](https://yeoman.io/).
-  - ` npm install -g yo`
+  - `npm install -g yo`
 
 ## Project Setup
-
-### Running the project
 
 To run this project you can either use [docker-compose](https://docs.docker.com/compose/) or run it manually.
 
@@ -75,7 +75,7 @@ DB_PORT: The port in which your database is running (by default 5432)
 JWT_SECRET: The secret key used to sign the JWT token
 ```
 
-## Correr la app!
+## Run the server
 
 Finally, you can run the project in development mode using the following command:
 

@@ -1,12 +1,16 @@
+# Manual de Frontend
+
 **Table of Contents**
 
-- [About The Project](#about-the-project)
+- [Manual de Frontend](#manual-de-frontend)
+  - [About The Project](#about-the-project)
   - [Pre-requisitos:](#pre-requisitos)
   - [Project Setup](#project-setup)
-  - [Correr la app!](#correr-la-app)
+    - [Env Variables](#env-variables)
+  - [Run the app](#run-the-app)
   - [Structure Folder](#structure-folder)
 
-# About The Project
+## About The Project
 
 This is a project to build a mobile App, with:
 
@@ -26,11 +30,11 @@ This is a project to build a mobile App, with:
 **_Todos los comando mostrados a continuacion deben ser corridos en la consola_**
 
 - [Node.js](https://nodejs.org/es/) LTS ([10.x](https://nodejs.org/en/blog/release/v10.18.0/) or [12.x](https://nodejs.org/es/blog/release/v12.13.0/))
-  - ` nvm install 12`
+  - `nvm install 12`
 - [Yarn](https://yarnpkg.com)
-  - ` npm install -g yarn`
+  - `npm install -g yarn`
 - [Yeoman](https://yeoman.io/).
-  - ` npm install -g yo`
+  - `npm install -g yo`
 
 ## Project Setup
 
@@ -47,6 +51,8 @@ nvm use 12
 yarn install
 ```
 
+### Env Variables
+
 - Debes crear un archivo `.env.local`, que tenga las siguientes variables:
 
 ```sh
@@ -54,7 +60,7 @@ PORT=8000
 REACT_APP_API_URL=http://localhost:3000
 ```
 
-## Correr la app!
+## Run the app
 
 Una vez cumplidos todos los requisitos y pasos anteriores, ejecutaremos el siguiente comando:
 
