@@ -4,11 +4,12 @@
 
 - [Manual de Frontend](#manual-de-frontend)
   - [About The Project](#about-the-project)
-  - [Pre-requisitos:](#pre-requisitos)
+  - [Pre-requisitos](#pre-requisitos)
   - [Project Setup](#project-setup)
     - [Env Variables](#env-variables)
   - [Run the app](#run-the-app)
   - [Structure Folder](#structure-folder)
+  - [How to contribute](#how-to-contribute)
 
 ## About The Project
 
@@ -21,7 +22,7 @@ This is a project to build a mobile App, with:
 - [Eslint](https://eslint.org/) and [prettier](https://prettier.io/): For code style.
 - [Yarn](https://yarnpkg.com/)
 
-## Pre-requisitos:
+## Pre-requisitos
 
 - Windows SO.
 - WSL: [guia instalación](https://docs.microsoft.com/en-us/windows/wsl/install).
@@ -68,11 +69,11 @@ Una vez cumplidos todos los requisitos y pasos anteriores, ejecutaremos el sigui
 yarn start
 ```
 
-Now go to http://localhost:8000 and start browsing
+Now go to <http://localhost:8000/> and start browsing
 
 ## Structure Folder
 
-```
+```sh
 src/
 ├── assets/
 │   ├── fonts/ # App fonts
@@ -85,3 +86,9 @@ src/
 ├── views/ # Views
 └── App.jsx
 ```
+
+## How to contribute
+
+- Fork this repo
+- Follow this [guide](https://la-guia.platan.us/setup/configuracion_de_proyectos/git) for commits!
+- Make a PR

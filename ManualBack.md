@@ -4,11 +4,12 @@
 
 - [Manual de Uso BackEnd](#manual-de-uso-backend)
   - [About this Project](#about-this-project)
-  - [Pre-requisitos:](#pre-requisitos)
+  - [Pre-requisitos](#pre-requisitos)
   - [Project Setup](#project-setup)
     - [Env Variables](#env-variables)
   - [Run the server](#run-the-server)
   - [Structure Folder](#structure-folder)
+  - [How to contribute](#how-to-contribute)
 
 ## About this Project
 
@@ -23,7 +24,7 @@ An Express template that uses:
 - [Dotenv](https://github.com/motdotla/dotenv) to read .env files.
 - [Eslint](https://eslint.org/) with airbnb configuration, to check
 
-## Pre-requisitos:
+## Pre-requisitos
 
 - Windows SO.
 - WSL: [guia instalación](https://docs.microsoft.com/en-us/windows/wsl/install).
@@ -91,4 +92,12 @@ If you wish to run the project normally, you can run the following command:
 yarn start
 ```
 
+and visit <http://localhost:3000/> (you can change the port by changing the PORT variable in your .env file).
+
 ## Structure Folder
+
+## How to contribute
+
+- Fork this repo
+- Follow this [guide](https://la-guia.platan.us/setup/configuracion_de_proyectos/git) for commits!
+- Make a PR
