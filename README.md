@@ -1,2 +1,2 @@
 # SEPractices
-Software Engineering Best Practices
+Software Engineering Basic Practices
